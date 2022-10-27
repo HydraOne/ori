@@ -1,0 +1,3 @@
+rootProject.name = 'ori'
+include 'generate-wiporder'
+include 'sync-serial'

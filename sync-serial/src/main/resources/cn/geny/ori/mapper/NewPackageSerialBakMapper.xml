@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.NewPackageSerialBakMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.NewPackageSerialBak">
+    <!--@mbg.generated-->
+    <!--@Table new_package_serial_bak-->
+    <id column="ORDER_NUM" jdbcType="BIGINT" property="orderNum" />
+    <result column="PRODUCT_NO" jdbcType="VARCHAR" property="productNo" />
+    <result column="PRODUCT_NAME" jdbcType="VARCHAR" property="productName" />
+    <result column="CUSTOMER" jdbcType="VARCHAR" property="customer" />
+    <result column="MODEL" jdbcType="VARCHAR" property="model" />
+    <result column="SERIAL_START" jdbcType="INTEGER" property="serialStart" />
+    <result column="SERIAL_END" jdbcType="INTEGER" property="serialEnd" />
+    <result column="ATTACT_REMARK" jdbcType="VARCHAR" property="attactRemark" />
+    <result column="IS_DISCHARGE" jdbcType="VARCHAR" property="isDischarge" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="EAN13" jdbcType="INTEGER" property="ean13" />
+    <result column="INDIVI_SERIAL" jdbcType="VARCHAR" property="indiviSerial" />
+    <result column="GERMAN_WEEK" jdbcType="INTEGER" property="germanWeek" />
+    <result column="FULL_SERIAL" jdbcType="VARCHAR" property="fullSerial" />
+    <result column="BATCH_ID" jdbcType="BIGINT" property="batchId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    ORDER_NUM, PRODUCT_NO, PRODUCT_NAME, CUSTOMER, MODEL, SERIAL_START, SERIAL_END, ATTACT_REMARK, 
+    IS_DISCHARGE, CREATE_DATE, EAN13, INDIVI_SERIAL, GERMAN_WEEK, FULL_SERIAL, BATCH_ID
+  </sql>
+</mapper>

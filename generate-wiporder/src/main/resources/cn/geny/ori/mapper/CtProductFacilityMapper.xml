@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.CtProductFacilityMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.CtProductFacility">
+    <!--@mbg.generated-->
+    <!--@Table CT_PRODUCT_FACILITY-->
+    <id column="PRODUCTID" jdbcType="DECIMAL" property="productid" />
+    <id column="ERPDEPARTMENT" jdbcType="VARCHAR" property="erpdepartment" />
+    <result column="MODELNO" jdbcType="VARCHAR" property="modelno" />
+    <result column="ITEMID" jdbcType="DECIMAL" property="itemid" />
+    <result column="PRODUCTNO" jdbcType="VARCHAR" property="productno" />
+    <result column="TEXTID" jdbcType="VARCHAR" property="textid" />
+    <result column="PRIMARY_UOM" jdbcType="VARCHAR" property="primaryUom" />
+    <result column="LONG_DESCRIPTION" jdbcType="CLOB" property="longDescription" />
+    <result column="REVISION" jdbcType="VARCHAR" property="revision" />
+    <result column="PART_MATURITY" jdbcType="VARCHAR" property="partMaturity" />
+    <result column="MATURITY_DESC" jdbcType="VARCHAR" property="maturityDesc" />
+    <result column="ERPMODEL" jdbcType="VARCHAR" property="erpmodel" />
+    <result column="ITEM_STATUS" jdbcType="VARCHAR" property="itemStatus" />
+    <result column="ATTRIBUTE1" jdbcType="VARCHAR" property="attribute1" />
+    <result column="ATTRIBUTE2" jdbcType="VARCHAR" property="attribute2" />
+    <result column="ATTRIBUTE3" jdbcType="VARCHAR" property="attribute3" />
+    <result column="ATTRIBUTE4" jdbcType="VARCHAR" property="attribute4" />
+    <result column="ATTRIBUTE5" jdbcType="VARCHAR" property="attribute5" />
+    <result column="ATTRIBUTE6" jdbcType="VARCHAR" property="attribute6" />
+    <result column="ATTRIBUTE7" jdbcType="VARCHAR" property="attribute7" />
+    <result column="ATTRIBUTE8" jdbcType="VARCHAR" property="attribute8" />
+    <result column="ATTRIBUTE9" jdbcType="VARCHAR" property="attribute9" />
+    <result column="ATTRIBUTE10" jdbcType="VARCHAR" property="attribute10" />
+    <result column="ATTRIBUTE11" jdbcType="VARCHAR" property="attribute11" />
+    <result column="ATTRIBUTE12" jdbcType="VARCHAR" property="attribute12" />
+    <result column="ATTRIBUTE13" jdbcType="VARCHAR" property="attribute13" />
+    <result column="ATTRIBUTE14" jdbcType="VARCHAR" property="attribute14" />
+    <result column="ATTRIBUTE15" jdbcType="VARCHAR" property="attribute15" />
+    <result column="ATTRIBUTE16" jdbcType="VARCHAR" property="attribute16" />
+    <result column="ATTRIBUTE17" jdbcType="VARCHAR" property="attribute17" />
+    <result column="ATTRIBUTE18" jdbcType="VARCHAR" property="attribute18" />
+    <result column="ATTRIBUTE19" jdbcType="VARCHAR" property="attribute19" />
+    <result column="ATTRIBUTE20" jdbcType="VARCHAR" property="attribute20" />
+    <result column="PLANNER_CODE" jdbcType="VARCHAR" property="plannerCode" />
+    <result column="BUYER" jdbcType="VARCHAR" property="buyer" />
+    <result column="PRODUCT_CATEGORY1" jdbcType="VARCHAR" property="productCategory1" />
+    <result column="PRODUCT_CATEGORY2" jdbcType="VARCHAR" property="productCategory2" />
+    <result column="PRODUCT_CATEGORY3" jdbcType="VARCHAR" property="productCategory3" />
+    <result column="PRODUCT_CATEGORY1_DESC_ZH" jdbcType="VARCHAR" property="productCategory1DescZh" />
+    <result column="PRODUCT_CATEGORY2_DESC_ZH" jdbcType="VARCHAR" property="productCategory2DescZh" />
+    <result column="PRODUCT_CATEGORY3_DESC_ZH" jdbcType="VARCHAR" property="productCategory3DescZh" />
+    <result column="PRODUCT_CATEGORY1_DESC" jdbcType="VARCHAR" property="productCategory1Desc" />
+    <result column="PRODUCT_CATEGORY2_DESC" jdbcType="VARCHAR" property="productCategory2Desc" />
+    <result column="PRODUCT_CATEGORY3_DESC" jdbcType="VARCHAR" property="productCategory3Desc" />
+    <result column="F_PACKAGEING" jdbcType="DECIMAL" property="fPackageing" />
+    <result column="F_LENGTH" jdbcType="DECIMAL" property="fLength" />
+    <result column="F_WIDETH" jdbcType="DECIMAL" property="fWideth" />
+    <result column="F_HIGHT" jdbcType="DECIMAL" property="fHight" />
+    <result column="S_LENGTH" jdbcType="DECIMAL" property="sLength" />
+    <result column="S_WIDETH" jdbcType="DECIMAL" property="sWideth" />
+    <result column="S_HIGHT" jdbcType="DECIMAL" property="sHight" />
+    <result column="S_WEIGHT" jdbcType="DECIMAL" property="sWeight" />
+    <result column="T_LENGTH" jdbcType="DECIMAL" property="tLength" />
+    <result column="T_WIDETH" jdbcType="DECIMAL" property="tWideth" />
+    <result column="T_HIGHT" jdbcType="DECIMAL" property="tHight" />
+    <result column="S_METHOD" jdbcType="VARCHAR" property="sMethod" />
+    <result column="T_METHOD" jdbcType="VARCHAR" property="tMethod" />
+    <result column="S_PACKAGEING" jdbcType="DECIMAL" property="sPackageing" />
+    <result column="T_PACKAGEING" jdbcType="DECIMAL" property="tPackageing" />
+    <result column="TRACKINGCODE" jdbcType="DECIMAL" property="trackingcode" />
+    <result column="PLANMETHOD" jdbcType="VARCHAR" property="planmethod" />
+    <result column="SERIALCHANGE" jdbcType="VARCHAR" property="serialchange" />
+    <result column="BRAND" jdbcType="VARCHAR" property="brand" />
+    <result column="PRODUCTTYPE" jdbcType="VARCHAR" property="producttype" />
+    <result column="SUPPLY_TYPE" jdbcType="VARCHAR" property="supplyType" />
+    <result column="WIP_SUPPLY_SUBINVENTORY" jdbcType="VARCHAR" property="wipSupplySubinventory" />
+    <result column="SUPPLY_SUBINVENTORY_LOCATOR" jdbcType="VARCHAR" property="supplySubinventoryLocator" />
+    <result column="RESULT" jdbcType="DECIMAL" property="result" />
+    <result column="MESSAGE" jdbcType="VARCHAR" property="message" />
+    <result column="OUTSOURCING_FLAG" jdbcType="VARCHAR" property="outsourcingFlag" />
+    <result column="REFERENCEID" jdbcType="DECIMAL" property="referenceid" />
+    <result column="LASTUPDATEON" jdbcType="TIMESTAMP" property="lastupdateon" />
+    <result column="LASTUPDATEDBY" jdbcType="VARCHAR" property="lastupdatedby" />
+    <result column="CREATEDON" jdbcType="TIMESTAMP" property="createdon" />
+    <result column="CREATEDBY" jdbcType="VARCHAR" property="createdby" />
+    <result column="ACTIVE" jdbcType="DECIMAL" property="active" />
+    <result column="LASTDELETEON" jdbcType="TIMESTAMP" property="lastdeleteon" />
+    <result column="LASTDELETEDBY" jdbcType="VARCHAR" property="lastdeletedby" />
+    <result column="LASTREACTIVATEON" jdbcType="TIMESTAMP" property="lastreactivateon" />
+    <result column="LASTREACTIVATEDBY" jdbcType="VARCHAR" property="lastreactivatedby" />
+    <result column="ARCHIVEID" jdbcType="DECIMAL" property="archiveid" />
+    <result column="LASTARCHIVEON" jdbcType="TIMESTAMP" property="lastarchiveon" />
+    <result column="LASTARCHIVEDBY" jdbcType="VARCHAR" property="lastarchivedby" />
+    <result column="LASTRESTOREON" jdbcType="TIMESTAMP" property="lastrestoreon" />
+    <result column="LASTRESTOREDBY" jdbcType="VARCHAR" property="lastrestoredby" />
+    <result column="ROWVERSIONSTAMP" jdbcType="DECIMAL" property="rowversionstamp" />
+    <result column="SERIALTRACKINGCODE" jdbcType="DECIMAL" property="serialtrackingcode" />
+    <result column="LOTTRACKINGCODE" jdbcType="DECIMAL" property="lottrackingcode" />
+    <result column="CONTAINERQUANTITY" jdbcType="DECIMAL" property="containerquantity" />
+    <result column="PALLETQUANTITY" jdbcType="DECIMAL" property="palletquantity" />
+    <result column="PALLETCONTAINERQUANTITY" jdbcType="DECIMAL" property="palletcontainerquantity" />
+    <result column="SOURCE" jdbcType="VARCHAR" property="source" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    PRODUCTID, ERPDEPARTMENT, MODELNO, ITEMID, PRODUCTNO, TEXTID, PRIMARY_UOM, LONG_DESCRIPTION, 
+    REVISION, PART_MATURITY, MATURITY_DESC, ERPMODEL, ITEM_STATUS, ATTRIBUTE1, ATTRIBUTE2, 
+    ATTRIBUTE3, ATTRIBUTE4, ATTRIBUTE5, ATTRIBUTE6, ATTRIBUTE7, ATTRIBUTE8, ATTRIBUTE9, 
+    ATTRIBUTE10, ATTRIBUTE11, ATTRIBUTE12, ATTRIBUTE13, ATTRIBUTE14, ATTRIBUTE15, ATTRIBUTE16, 
+    ATTRIBUTE17, ATTRIBUTE18, ATTRIBUTE19, ATTRIBUTE20, PLANNER_CODE, BUYER, PRODUCT_CATEGORY1, 
+    PRODUCT_CATEGORY2, PRODUCT_CATEGORY3, PRODUCT_CATEGORY1_DESC_ZH, PRODUCT_CATEGORY2_DESC_ZH, 
+    PRODUCT_CATEGORY3_DESC_ZH, PRODUCT_CATEGORY1_DESC, PRODUCT_CATEGORY2_DESC, PRODUCT_CATEGORY3_DESC, 
+    F_PACKAGEING, F_LENGTH, F_WIDETH, F_HIGHT, S_LENGTH, S_WIDETH, S_HIGHT, S_WEIGHT, 
+    T_LENGTH, T_WIDETH, T_HIGHT, S_METHOD, T_METHOD, S_PACKAGEING, T_PACKAGEING, TRACKINGCODE, 
+    PLANMETHOD, SERIALCHANGE, BRAND, PRODUCTTYPE, SUPPLY_TYPE, WIP_SUPPLY_SUBINVENTORY, 
+    SUPPLY_SUBINVENTORY_LOCATOR, "RESULT", MESSAGE, OUTSOURCING_FLAG, REFERENCEID, LASTUPDATEON, 
+    LASTUPDATEDBY, CREATEDON, CREATEDBY, ACTIVE, LASTDELETEON, LASTDELETEDBY, LASTREACTIVATEON, 
+    LASTREACTIVATEDBY, ARCHIVEID, LASTARCHIVEON, LASTARCHIVEDBY, LASTRESTOREON, LASTRESTOREDBY, 
+    ROWVERSIONSTAMP, SERIALTRACKINGCODE, LOTTRACKINGCODE, CONTAINERQUANTITY, PALLETQUANTITY, 
+    PALLETCONTAINERQUANTITY, "SOURCE"
+  </sql>
+</mapper>

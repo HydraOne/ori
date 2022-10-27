@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.WaitHandleProductMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.WaitHandleProduct">
+    <!--@mbg.generated-->
+    <!--@Table wait_handle_product-->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="PRODUCT_NO" jdbcType="VARCHAR" property="productNo" />
+    <result column="STASTUS" jdbcType="VARCHAR" property="stastus" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="BATCHID" jdbcType="BIGINT" property="batchid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    ID, PRODUCT_NO, STASTUS, CREATE_TIME, BATCHID
+  </sql>
+</mapper>

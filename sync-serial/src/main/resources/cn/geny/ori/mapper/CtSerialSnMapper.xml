@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.CtSerialSnMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.CtSerialSn">
+    <!--@mbg.generated-->
+    <!--@Table CT_SERIAL_SN-->
+    <id column="SNID" jdbcType="DECIMAL" property="snid" />
+    <result column="FACILITY" jdbcType="VARCHAR" property="facility" />
+    <result column="DEPARTMENT" jdbcType="VARCHAR" property="department" />
+    <result column="SN" jdbcType="VARCHAR" property="sn" />
+    <result column="SRC" jdbcType="VARCHAR" property="src" />
+    <result column="SRCTYPE" jdbcType="VARCHAR" property="srctype" />
+    <result column="RULEID" jdbcType="DECIMAL" property="ruleid" />
+    <result column="RULETYPE" jdbcType="VARCHAR" property="ruletype" />
+    <result column="REFENCETYPE" jdbcType="VARCHAR" property="refencetype" />
+    <result column="FUID" jdbcType="VARCHAR" property="fuid" />
+    <result column="TEXTID" jdbcType="DECIMAL" property="textid" />
+    <result column="REFERENCEID" jdbcType="DECIMAL" property="referenceid" />
+    <result column="LASTUPDATEON" jdbcType="TIMESTAMP" property="lastupdateon" />
+    <result column="LASTUPDATEDBY" jdbcType="VARCHAR" property="lastupdatedby" />
+    <result column="CREATEDON" jdbcType="TIMESTAMP" property="createdon" />
+    <result column="CREATEDBY" jdbcType="VARCHAR" property="createdby" />
+    <result column="ACTIVE" jdbcType="DECIMAL" property="active" />
+    <result column="LASTDELETEON" jdbcType="TIMESTAMP" property="lastdeleteon" />
+    <result column="LASTDELETEDBY" jdbcType="VARCHAR" property="lastdeletedby" />
+    <result column="LASTREACTIVATEON" jdbcType="TIMESTAMP" property="lastreactivateon" />
+    <result column="LASTREACTIVATEDBY" jdbcType="VARCHAR" property="lastreactivatedby" />
+    <result column="ARCHIVEID" jdbcType="DECIMAL" property="archiveid" />
+    <result column="LASTARCHIVEON" jdbcType="TIMESTAMP" property="lastarchiveon" />
+    <result column="LASTARCHIVEDBY" jdbcType="VARCHAR" property="lastarchivedby" />
+    <result column="LASTRESTOREON" jdbcType="TIMESTAMP" property="lastrestoreon" />
+    <result column="LASTRESTOREDBY" jdbcType="VARCHAR" property="lastrestoredby" />
+    <result column="ROWVERSIONSTAMP" jdbcType="DECIMAL" property="rowversionstamp" />
+    <result column="REFERENCENO" jdbcType="VARCHAR" property="referenceno" />
+    <result column="ISRESERVED" jdbcType="DECIMAL" property="isreserved" />
+    <result column="QUANTITY" jdbcType="DECIMAL" property="quantity" />
+    <result column="ERPSN" jdbcType="VARCHAR" property="erpsn" />
+    <result column="SEQ" jdbcType="VARCHAR" property="seq" />
+    <result column="BATCHID" jdbcType="DECIMAL" property="batchid" />
+    <result column="STATUS" jdbcType="DECIMAL" property="status" />
+    <result column="QRCODE" jdbcType="VARCHAR" property="qrcode" />
+    <result column="GUIDSN" jdbcType="VARCHAR" property="guidsn" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    SNID, FACILITY, DEPARTMENT, SN, SRC, SRCTYPE, RULEID, RULETYPE, REFENCETYPE, FUID, 
+    TEXTID, REFERENCEID, LASTUPDATEON, LASTUPDATEDBY, CREATEDON, CREATEDBY, ACTIVE, LASTDELETEON, 
+    LASTDELETEDBY, LASTREACTIVATEON, LASTREACTIVATEDBY, ARCHIVEID, LASTARCHIVEON, LASTARCHIVEDBY, 
+    LASTRESTOREON, LASTRESTOREDBY, ROWVERSIONSTAMP, REFERENCENO, ISRESERVED, QUANTITY, 
+    ERPSN, SEQ, BATCHID, "STATUS", QRCODE, GUIDSN
+  </sql>
+</mapper>

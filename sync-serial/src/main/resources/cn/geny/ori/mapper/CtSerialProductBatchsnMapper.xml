@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.CtSerialProductBatchsnMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.CtSerialProductBatchsn">
+    <!--@mbg.generated-->
+    <!--@Table CT_SERIAL_PRODUCT_BATCHSN-->
+    <id column="BATCHID" jdbcType="DECIMAL" property="batchid" />
+    <result column="FACILITY" jdbcType="VARCHAR" property="facility" />
+    <result column="PACKAGERULEID" jdbcType="DECIMAL" property="packageruleid" />
+    <result column="WIPORDERNO" jdbcType="VARCHAR" property="wiporderno" />
+    <result column="BATCHTYPE" jdbcType="DECIMAL" property="batchtype" />
+    <result column="PRODUCTNO" jdbcType="VARCHAR" property="productno" />
+    <result column="PRODUCEDATE" jdbcType="TIMESTAMP" property="producedate" />
+    <result column="BATCHNUM" jdbcType="DECIMAL" property="batchnum" />
+    <result column="SNSTART" jdbcType="VARCHAR" property="snstart" />
+    <result column="SNEND" jdbcType="VARCHAR" property="snend" />
+    <result column="ISPRINT" jdbcType="DECIMAL" property="isprint" />
+    <result column="REMARK" jdbcType="VARCHAR" property="remark" />
+    <result column="REFERENCEID" jdbcType="DECIMAL" property="referenceid" />
+    <result column="LASTUPDATEON" jdbcType="TIMESTAMP" property="lastupdateon" />
+    <result column="LASTUPDATEDBY" jdbcType="VARCHAR" property="lastupdatedby" />
+    <result column="CREATEDON" jdbcType="TIMESTAMP" property="createdon" />
+    <result column="CREATEDBY" jdbcType="VARCHAR" property="createdby" />
+    <result column="ACTIVE" jdbcType="DECIMAL" property="active" />
+    <result column="LASTDELETEON" jdbcType="TIMESTAMP" property="lastdeleteon" />
+    <result column="LASTDELETEDBY" jdbcType="VARCHAR" property="lastdeletedby" />
+    <result column="LASTREACTIVATEON" jdbcType="TIMESTAMP" property="lastreactivateon" />
+    <result column="LASTREACTIVATEDBY" jdbcType="VARCHAR" property="lastreactivatedby" />
+    <result column="ARCHIVEID" jdbcType="DECIMAL" property="archiveid" />
+    <result column="LASTARCHIVEON" jdbcType="TIMESTAMP" property="lastarchiveon" />
+    <result column="LASTARCHIVEDBY" jdbcType="VARCHAR" property="lastarchivedby" />
+    <result column="LASTRESTOREON" jdbcType="TIMESTAMP" property="lastrestoreon" />
+    <result column="LASTRESTOREDBY" jdbcType="VARCHAR" property="lastrestoredby" />
+    <result column="ROWVERSIONSTAMP" jdbcType="DECIMAL" property="rowversionstamp" />
+    <result column="SNPREFIX" jdbcType="VARCHAR" property="snprefix" />
+    <result column="RULENO" jdbcType="VARCHAR" property="ruleno" />
+    <result column="ERPSNSTART" jdbcType="VARCHAR" property="erpsnstart" />
+    <result column="ERPSNEND" jdbcType="VARCHAR" property="erpsnend" />
+    <result column="SEQSTART" jdbcType="VARCHAR" property="seqstart" />
+    <result column="SEQEND" jdbcType="VARCHAR" property="seqend" />
+    <result column="SEQCOUNT" jdbcType="DECIMAL" property="seqcount" />
+    <result column="TOERP" jdbcType="DECIMAL" property="toerp" />
+    <result column="STATUS" jdbcType="DECIMAL" property="status" />
+    <result column="QUANTITYPER" jdbcType="DECIMAL" property="quantityper" />
+    <result column="BASE" jdbcType="VARCHAR" property="base" />
+    <result column="TXTBASE" jdbcType="VARCHAR" property="txtbase" />
+    <result column="BOMTYPE" jdbcType="VARCHAR" property="bomtype" />
+    <result column="SUBBOMTYPE" jdbcType="VARCHAR" property="subbomtype" />
+    <result column="PARENTPRODUCTID" jdbcType="DECIMAL" property="parentproductid" />
+    <result column="SAMEWITH" jdbcType="VARCHAR" property="samewith" />
+    <result column="PARENTPRODUCTNO" jdbcType="VARCHAR" property="parentproductno" />
+    <result column="SNPOSITION" jdbcType="DECIMAL" property="snposition" />
+    <result column="CHECKPOSITION" jdbcType="DECIMAL" property="checkposition" />
+    <result column="QUANTITYORDER" jdbcType="DECIMAL" property="quantityorder" />
+    <result column="RESERVED" jdbcType="DECIMAL" property="reserved" />
+    <result column="REPLACEDPRODUCTNO" jdbcType="VARCHAR" property="replacedproductno" />
+    <result column="ISGERMANYYEAR" jdbcType="DECIMAL" property="isgermanyyear" />
+    <result column="CODEBASE" jdbcType="VARCHAR" property="codebase" />
+    <result column="GUIDBATCH" jdbcType="VARCHAR" property="guidbatch" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    BATCHID, FACILITY, PACKAGERULEID, WIPORDERNO, BATCHTYPE, PRODUCTNO, PRODUCEDATE, 
+    BATCHNUM, SNSTART, SNEND, ISPRINT, REMARK, REFERENCEID, LASTUPDATEON, LASTUPDATEDBY, 
+    CREATEDON, CREATEDBY, ACTIVE, LASTDELETEON, LASTDELETEDBY, LASTREACTIVATEON, LASTREACTIVATEDBY, 
+    ARCHIVEID, LASTARCHIVEON, LASTARCHIVEDBY, LASTRESTOREON, LASTRESTOREDBY, ROWVERSIONSTAMP, 
+    SNPREFIX, RULENO, ERPSNSTART, ERPSNEND, SEQSTART, SEQEND, SEQCOUNT, TOERP, "STATUS", 
+    QUANTITYPER, BASE, TXTBASE, BOMTYPE, SUBBOMTYPE, PARENTPRODUCTID, SAMEWITH, PARENTPRODUCTNO, 
+    SNPOSITION, CHECKPOSITION, QUANTITYORDER, RESERVED, REPLACEDPRODUCTNO, ISGERMANYYEAR, 
+    CODEBASE, GUIDBATCH
+  </sql>
+</mapper>

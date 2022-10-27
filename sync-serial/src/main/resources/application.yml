@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: health
+  datasource:
+    dynamic:
+      primary: master
+      strict: false
+      datasource:
+        master:
+          url: jdbc:mysql://127.0.0.1:3306/chervon
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          #    url: jdbc:oracle:thin:@172.17.1.171:1521:ORCL
+          #    url: jdbc:mysql://81.68.219.205:3306/zhkscs
+          username: root
+          password: Passw0rd
+        slave_1:
+          url: jdbc:oracle:thin:@172.17.8.6:1521:ORCLCDB
+          driver-class-name: oracle.jdbc.driver.OracleDriver
+          #    url: jdbc:oracle:thin:@172.17.1.171:1521:ORCL
+          #    url: jdbc:mysql://81.68.219.205:3306/zhkscs
+          username: flxuser
+          password: Apriso1234
+
+
+
+mybatis-plus:
+  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+    # mybatis-plus ????
+    cache-enabled: false
+  mapper-locations: classpath:cn/geny/ori/mapper/*.xml
+
+debug: false

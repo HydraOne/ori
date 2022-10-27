@@ -1,0 +1,33 @@
+{
+  "taskId": "9595e2eb-8960-43e1-82d9-6d9860ffad3d",
+  "WorkOrderNo": "0830177001_0820",
+  "WipOrderNo": "PU_0830177001_001",
+  "ProductNo": "0830177001",
+  "Facility": "311",
+  "OrderQuantity": 40,
+  "RoutingID": "100066822",
+  "ScheduledStartDate": "2022-11-6 20:00:00",
+  "ScheduledCompletionDate": "2023-1-7 12:00:00",
+  "WipOrderType": "1",
+  "PuQuantity": 10,
+  "IsReport": "0",
+  "Customer": "",
+  "SaleOrderNo": "",
+  "SaleOrderLineNo": "",
+  "PurchaseOrderNo": "",
+  "WipOperationList": [
+    {
+      "OprSequenceNo": "20",
+      "WorkOrderNo": "0818001",
+      "WipOrderNo": "0830177001_0820",
+      "APSTaskNo": "PU_0830177001_0820-1",
+      "ScheduledStartDate": "2022-11-6 20:00:00",
+      "ScheduledCompletionDate": "2023-1-7 12:00:00",
+      "LineNo": "",
+      "Shift": "",
+      "Equipment": "",
+      "Workcenter": "",
+      "OperationCode": "20"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.ResourceMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.Resource">
+    <!--@mbg.generated-->
+    <!--@Table RESOURCE_-->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="FUID" jdbcType="VARCHAR" property="fuid" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="RESOURCENAME" jdbcType="VARCHAR" property="resourcename" />
+    <result column="RESOURCETYPE" jdbcType="DECIMAL" property="resourcetype" />
+    <result column="RESOURCECLASSID" jdbcType="DECIMAL" property="resourceclassid" />
+    <result column="TEXTID" jdbcType="DECIMAL" property="textid" />
+    <result column="TRACKINGUOMCODE" jdbcType="VARCHAR" property="trackinguomcode" />
+    <result column="MOBILITYFLAG" jdbcType="DECIMAL" property="mobilityflag" />
+    <result column="DEPARTMENT" jdbcType="VARCHAR" property="department" />
+    <result column="FACILITY" jdbcType="VARCHAR" property="facility" />
+    <result column="WORKCENTER" jdbcType="VARCHAR" property="workcenter" />
+    <result column="AUTOCHARGE" jdbcType="DECIMAL" property="autocharge" />
+    <result column="STDRATE" jdbcType="DECIMAL" property="stdrate" />
+    <result column="EXCLUDEFROMPLANNING" jdbcType="DECIMAL" property="excludefromplanning" />
+    <result column="LASTMAINTENANCEDATE" jdbcType="TIMESTAMP" property="lastmaintenancedate" />
+    <result column="NEXTMAINTENANCEDATE" jdbcType="TIMESTAMP" property="nextmaintenancedate" />
+    <result column="PRODUCTIONLINE" jdbcType="VARCHAR" property="productionline" />
+    <result column="TRACKATTENDANCEFLAG" jdbcType="DECIMAL" property="trackattendanceflag" />
+    <result column="TRACKLABORFLAG" jdbcType="DECIMAL" property="tracklaborflag" />
+    <result column="TRACKRESOURCELABORFLAG" jdbcType="DECIMAL" property="trackresourcelaborflag" />
+    <result column="CAPACITYID" jdbcType="DECIMAL" property="capacityid" />
+    <result column="WORKLOADID" jdbcType="DECIMAL" property="workloadid" />
+    <result column="COSTID" jdbcType="DECIMAL" property="costid" />
+    <result column="PROCUREMENTID" jdbcType="DECIMAL" property="procurementid" />
+    <result column="MOBILITYID" jdbcType="DECIMAL" property="mobilityid" />
+    <result column="AVAILABILITYID" jdbcType="DECIMAL" property="availabilityid" />
+    <result column="OWNERSHIPID" jdbcType="DECIMAL" property="ownershipid" />
+    <result column="UNITID" jdbcType="DECIMAL" property="unitid" />
+    <result column="SPECIFICATIONID" jdbcType="DECIMAL" property="specificationid" />
+    <result column="LIFECYCLE" jdbcType="DECIMAL" property="lifecycle" />
+    <result column="AUTOADJUSTSTATE" jdbcType="DECIMAL" property="autoadjuststate" />
+    <result column="COUPLESTATE" jdbcType="DECIMAL" property="couplestate" />
+    <result column="CALENDARID" jdbcType="DECIMAL" property="calendarid" />
+    <result column="PAYRULE" jdbcType="VARCHAR" property="payrule" />
+    <result column="WAREHOUSELOCATIONID" jdbcType="DECIMAL" property="warehouselocationid" />
+    <result column="WORKCENTERPAYPOINT" jdbcType="DECIMAL" property="workcenterpaypoint" />
+    <result column="DEPARTMENTPAYPOINT" jdbcType="DECIMAL" property="departmentpaypoint" />
+    <result column="FACILITYPAYPOINT" jdbcType="DECIMAL" property="facilitypaypoint" />
+    <result column="WORKCENTERCONSTRAINT" jdbcType="DECIMAL" property="workcenterconstraint" />
+    <result column="DEPARTMENTCONSTRAINT" jdbcType="DECIMAL" property="departmentconstraint" />
+    <result column="PRODUCTIONLINEPAYPOINT" jdbcType="DECIMAL" property="productionlinepaypoint" />
+    <result column="PRODUCTIONLINECONSTRAINT" jdbcType="DECIMAL" property="productionlineconstraint" />
+    <result column="PRODUCTBOMFACILITY" jdbcType="VARCHAR" property="productbomfacility" />
+    <result column="PRODUCTBOMNUMBER" jdbcType="VARCHAR" property="productbomnumber" />
+    <result column="MASTERRESOURCE" jdbcType="DECIMAL" property="masterresource" />
+    <result column="PRODUCTID" jdbcType="DECIMAL" property="productid" />
+    <result column="REFERENCEID" jdbcType="DECIMAL" property="referenceid" />
+    <result column="LASTUPDATEON" jdbcType="TIMESTAMP" property="lastupdateon" />
+    <result column="LASTUPDATEDBY" jdbcType="VARCHAR" property="lastupdatedby" />
+    <result column="CREATEDON" jdbcType="TIMESTAMP" property="createdon" />
+    <result column="CREATEDBY" jdbcType="VARCHAR" property="createdby" />
+    <result column="ACTIVE" jdbcType="DECIMAL" property="active" />
+    <result column="LASTDELETEON" jdbcType="TIMESTAMP" property="lastdeleteon" />
+    <result column="LASTDELETEDBY" jdbcType="VARCHAR" property="lastdeletedby" />
+    <result column="LASTREACTIVATEON" jdbcType="TIMESTAMP" property="lastreactivateon" />
+    <result column="LASTREACTIVATEDBY" jdbcType="VARCHAR" property="lastreactivatedby" />
+    <result column="ARCHIVEID" jdbcType="DECIMAL" property="archiveid" />
+    <result column="LASTARCHIVEON" jdbcType="TIMESTAMP" property="lastarchiveon" />
+    <result column="LASTARCHIVEDBY" jdbcType="VARCHAR" property="lastarchivedby" />
+    <result column="LASTRESTOREON" jdbcType="TIMESTAMP" property="lastrestoreon" />
+    <result column="LASTRESTOREDBY" jdbcType="VARCHAR" property="lastrestoredby" />
+    <result column="ROWVERSIONSTAMP" jdbcType="DECIMAL" property="rowversionstamp" />
+    <result column="RECEIPTLOCATIONID" jdbcType="DECIMAL" property="receiptlocationid" />
+    <result column="PUTAWAYLOCATIONID" jdbcType="DECIMAL" property="putawaylocationid" />
+    <result column="MAINTENANCECALENDARID" jdbcType="DECIMAL" property="maintenancecalendarid" />
+    <result column="OPERATINGRANGE" jdbcType="DECIMAL" property="operatingrange" />
+    <result column="DSID" jdbcType="VARCHAR" property="dsid" />
+    <result column="DSNAME" jdbcType="VARCHAR" property="dsname" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    ID, FUID, "NAME", RESOURCENAME, RESOURCETYPE, RESOURCECLASSID, TEXTID, TRACKINGUOMCODE, 
+    MOBILITYFLAG, DEPARTMENT, FACILITY, WORKCENTER, AUTOCHARGE, STDRATE, EXCLUDEFROMPLANNING, 
+    LASTMAINTENANCEDATE, NEXTMAINTENANCEDATE, PRODUCTIONLINE, TRACKATTENDANCEFLAG, TRACKLABORFLAG, 
+    TRACKRESOURCELABORFLAG, CAPACITYID, WORKLOADID, COSTID, PROCUREMENTID, MOBILITYID, 
+    AVAILABILITYID, OWNERSHIPID, UNITID, SPECIFICATIONID, LIFECYCLE, AUTOADJUSTSTATE, 
+    COUPLESTATE, CALENDARID, PAYRULE, WAREHOUSELOCATIONID, WORKCENTERPAYPOINT, DEPARTMENTPAYPOINT, 
+    FACILITYPAYPOINT, WORKCENTERCONSTRAINT, DEPARTMENTCONSTRAINT, PRODUCTIONLINEPAYPOINT, 
+    PRODUCTIONLINECONSTRAINT, PRODUCTBOMFACILITY, PRODUCTBOMNUMBER, MASTERRESOURCE, PRODUCTID, 
+    REFERENCEID, LASTUPDATEON, LASTUPDATEDBY, CREATEDON, CREATEDBY, ACTIVE, LASTDELETEON, 
+    LASTDELETEDBY, LASTREACTIVATEON, LASTREACTIVATEDBY, ARCHIVEID, LASTARCHIVEON, LASTARCHIVEDBY, 
+    LASTRESTOREON, LASTRESTOREDBY, ROWVERSIONSTAMP, RECEIPTLOCATIONID, PUTAWAYLOCATIONID, 
+    MAINTENANCECALENDARID, OPERATINGRANGE, DSID, DSNAME
+  </sql>
+</mapper>

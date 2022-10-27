@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.CtProcessOperationMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.CtProcessOperation">
+    <!--@mbg.generated-->
+    <!--@Table CT_PROCESS_OPERATION-->
+    <id column="PROCESSOPERATIONID" jdbcType="DECIMAL" property="processoperationid" />
+    <result column="PROCESSID" jdbcType="DECIMAL" property="processid" />
+    <result column="OPERATIONCODE" jdbcType="VARCHAR" property="operationcode" />
+    <result column="CAPACITY" jdbcType="DECIMAL" property="capacity" />
+    <result column="MANPOWER" jdbcType="DECIMAL" property="manpower" />
+    <result column="REFERENCEID" jdbcType="DECIMAL" property="referenceid" />
+    <result column="LASTUPDATEON" jdbcType="TIMESTAMP" property="lastupdateon" />
+    <result column="LASTUPDATEDBY" jdbcType="VARCHAR" property="lastupdatedby" />
+    <result column="CREATEDON" jdbcType="TIMESTAMP" property="createdon" />
+    <result column="CREATEDBY" jdbcType="VARCHAR" property="createdby" />
+    <result column="ACTIVE" jdbcType="DECIMAL" property="active" />
+    <result column="LASTDELETEON" jdbcType="TIMESTAMP" property="lastdeleteon" />
+    <result column="LASTDELETEDBY" jdbcType="VARCHAR" property="lastdeletedby" />
+    <result column="LASTREACTIVATEON" jdbcType="TIMESTAMP" property="lastreactivateon" />
+    <result column="LASTREACTIVATEDBY" jdbcType="VARCHAR" property="lastreactivatedby" />
+    <result column="ARCHIVEID" jdbcType="DECIMAL" property="archiveid" />
+    <result column="LASTARCHIVEON" jdbcType="TIMESTAMP" property="lastarchiveon" />
+    <result column="LASTARCHIVEDBY" jdbcType="VARCHAR" property="lastarchivedby" />
+    <result column="LASTRESTOREON" jdbcType="TIMESTAMP" property="lastrestoreon" />
+    <result column="LASTRESTOREDBY" jdbcType="VARCHAR" property="lastrestoredby" />
+    <result column="ROWVERSIONSTAMP" jdbcType="DECIMAL" property="rowversionstamp" />
+    <result column="OPERATIONNO" jdbcType="VARCHAR" property="operationno" />
+    <result column="OPRSEQUENCENO" jdbcType="VARCHAR" property="oprsequenceno" />
+    <result column="TEXTID" jdbcType="DECIMAL" property="textid" />
+    <result column="ISREPORT" jdbcType="DECIMAL" property="isreport" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    PROCESSOPERATIONID, PROCESSID, OPERATIONCODE, CAPACITY, MANPOWER, REFERENCEID, LASTUPDATEON, 
+    LASTUPDATEDBY, CREATEDON, CREATEDBY, ACTIVE, LASTDELETEON, LASTDELETEDBY, LASTREACTIVATEON, 
+    LASTREACTIVATEDBY, ARCHIVEID, LASTARCHIVEON, LASTARCHIVEDBY, LASTRESTOREON, LASTRESTOREDBY, 
+    ROWVERSIONSTAMP, OPERATIONNO, OPRSEQUENCENO, TEXTID, ISREPORT
+  </sql>
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.AbSerialMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.AbSerial">
+    <!--@mbg.generated-->
+    <!--@Table ab_serial-->
+    <id column="ID" jdbcType="BIGINT" property="id" />
+    <result column="ORDER_NUM" jdbcType="BIGINT" property="orderNum" />
+    <result column="FULL_SERIAL" jdbcType="VARCHAR" property="fullSerial" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    ID, ORDER_NUM, FULL_SERIAL
+  </sql>
+</mapper>

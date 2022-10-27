@@ -1,0 +1,32 @@
+{
+  "WipOrderNo": "PU_F850005018_5616",
+  "WipOrderType": "1",
+  "Customer": "",
+  "SaleOrderLineNo": "",
+  "IsReport": "0",
+  "OrderQuantity": 3,
+  "ProductNo": "F850005018",
+  "ScheduledCompletionDate": "2022-08-30 11:56:16",
+  "ScheduledStartDate": "2022-08-23 11:56:16",
+  "WorkOrderNo": "Order_F850005018_5616",
+  "RoutingID": "100067122",
+  "WipOperationList": [
+    {
+      "ScheduledCompletionDate": "2022-08-30 11:56:16",
+      "Shift": "303EOPE50",
+      "OprSequenceNo": "20",
+      "WipOrderNo": "PU_F850005018_5616",
+      "ScheduledStartDate": "2022-08-23 11:56:16",
+      "WorkOrderNo": "Order_F850005018_5616",
+      "Workcenter": "",
+      "Equipment": "",
+      "OperationCode": "20",
+      "APSTaskNo": "PU_APS_F850005018_5616",
+      "LineNo": ""
+    }
+  ],
+  "Facility": "303",
+  "SaleOrderNo": "",
+  "taskId": "1cec9d60-3250-4075-8dcc-915f8c7c7384",
+  "PurchaseOrderNo": ""
+}

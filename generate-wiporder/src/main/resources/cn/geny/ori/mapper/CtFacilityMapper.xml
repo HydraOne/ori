@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.geny.ori.mapper.CtFacilityMapper">
+  <resultMap id="BaseResultMap" type="cn.geny.ori.model.CtFacility">
+    <!--@mbg.generated-->
+    <!--@Table CT_FACILITY-->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <id column="FACILITY" jdbcType="VARCHAR" property="facility" />
+    <result column="ERPDEPARTMENTID" jdbcType="DECIMAL" property="erpdepartmentid" />
+    <result column="ERPDEPARTMENT" jdbcType="VARCHAR" property="erpdepartment" />
+    <result column="REFERENCEID" jdbcType="DECIMAL" property="referenceid" />
+    <result column="LASTUPDATEON" jdbcType="TIMESTAMP" property="lastupdateon" />
+    <result column="LASTUPDATEDBY" jdbcType="VARCHAR" property="lastupdatedby" />
+    <result column="CREATEDON" jdbcType="TIMESTAMP" property="createdon" />
+    <result column="CREATEDBY" jdbcType="VARCHAR" property="createdby" />
+    <result column="ACTIVE" jdbcType="DECIMAL" property="active" />
+    <result column="LASTDELETEON" jdbcType="TIMESTAMP" property="lastdeleteon" />
+    <result column="LASTDELETEDBY" jdbcType="VARCHAR" property="lastdeletedby" />
+    <result column="LASTREACTIVATEON" jdbcType="TIMESTAMP" property="lastreactivateon" />
+    <result column="LASTREACTIVATEDBY" jdbcType="VARCHAR" property="lastreactivatedby" />
+    <result column="ARCHIVEID" jdbcType="DECIMAL" property="archiveid" />
+    <result column="LASTARCHIVEON" jdbcType="TIMESTAMP" property="lastarchiveon" />
+    <result column="LASTARCHIVEDBY" jdbcType="VARCHAR" property="lastarchivedby" />
+    <result column="LASTRESTOREON" jdbcType="TIMESTAMP" property="lastrestoreon" />
+    <result column="LASTRESTOREDBY" jdbcType="VARCHAR" property="lastrestoredby" />
+    <result column="ROWVERSIONSTAMP" jdbcType="DECIMAL" property="rowversionstamp" />
+    <result column="DASHBOARDBUSINESSOBJECTID" jdbcType="DECIMAL" property="dashboardbusinessobjectid" />
+    <result column="COUNTRYOFBIRTH" jdbcType="VARCHAR" property="countryofbirth" />
+    <result column="DATEOFBIRTH" jdbcType="TIMESTAMP" property="dateofbirth" />
+    <result column="FACILITYNAME" jdbcType="VARCHAR" property="facilityname" />
+    <result column="COMPANY" jdbcType="VARCHAR" property="company" />
+    <result column="DIVISION" jdbcType="VARCHAR" property="division" />
+    <result column="TEXTID" jdbcType="DECIMAL" property="textid" />
+    <result column="COMPLETESUB" jdbcType="VARCHAR" property="completesub" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    ID, FACILITY, ERPDEPARTMENTID, ERPDEPARTMENT, REFERENCEID, LASTUPDATEON, LASTUPDATEDBY, 
+    CREATEDON, CREATEDBY, ACTIVE, LASTDELETEON, LASTDELETEDBY, LASTREACTIVATEON, LASTREACTIVATEDBY, 
+    ARCHIVEID, LASTARCHIVEON, LASTARCHIVEDBY, LASTRESTOREON, LASTRESTOREDBY, ROWVERSIONSTAMP, 
+    DASHBOARDBUSINESSOBJECTID, COUNTRYOFBIRTH, DATEOFBIRTH, FACILITYNAME, COMPANY, DIVISION, 
+    TEXTID, COMPLETESUB
+  </sql>
+</mapper>

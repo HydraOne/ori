@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: health
+  datasource:
+    url: jdbc:oracle:thin:@172.17.8.6:1521:ORCLCDB
+#    url: jdbc:oracle:thin:@172.17.1.171:1521:ORCL
+    #    url: jdbc:mysql://81.68.219.205:3306/zhkscs
+    username: flxuser
+    password: Apriso1234
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+    # mybatis-plus ????
+    cache-enabled: false
+  mapper-locations: classpath:cn/geny/ori/mapper/*.xml
+
+debug: false

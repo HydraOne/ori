@@ -1,0 +1,59 @@
+{
+  "WipOrderNo": "PU_2826299003_09301536",
+  "WipOrderType": "1",
+  "Customer": "",
+  "SaleOrderLineNo": "",
+  "PuQuantity": 3,
+  "IsReport": "0",
+  "OrderQuantity": 40,
+  "ProductNo": "2826299003",
+  "ScheduledCompletionDate": "2022-10-07 15:36:02",
+  "ScheduledStartDate": "2022-09-30 15:36:02",
+  "WorkOrderNo": "Order_2826299003_09301536",
+  "RoutingID": "100136012",
+  "WipOperationList": [
+    {
+      "ScheduledCompletionDate": "2022-10-07 15:36:02",
+      "Shift": "",
+      "OprSequenceNo": "5",
+      "WipOrderNo": "PU_2826299003_09301536",
+      "ScheduledStartDate": "2022-09-30 15:36:02",
+      "WorkOrderNo": "Order_2826299003_09301536",
+      "Workcenter": "",
+      "Equipment": "",
+      "OperationCode": "5",
+      "APSTaskNo": "PU_APS_2826299003_09301536",
+      "LineNo": "431LTOO07"
+    },
+    {
+      "ScheduledCompletionDate": "2022-10-07 15:36:02",
+      "Shift": "",
+      "OprSequenceNo": "30",
+      "WipOrderNo": "PU_2826299003_09301536",
+      "ScheduledStartDate": "2022-09-30 15:36:02",
+      "WorkOrderNo": "Order_2826299003_09301536",
+      "Workcenter": "",
+      "Equipment": "",
+      "OperationCode": "30",
+      "APSTaskNo": "PU_APS_2826299003_09301536",
+      "LineNo": "431LTOO07"
+    },
+    {
+      "ScheduledCompletionDate": "2022-10-07 15:36:02",
+      "Shift": "",
+      "OprSequenceNo": "10",
+      "WipOrderNo": "PU_2826299003_09301536",
+      "ScheduledStartDate": "2022-09-30 15:36:02",
+      "WorkOrderNo": "Order_2826299003_09301536",
+      "Workcenter": "",
+      "Equipment": "",
+      "OperationCode": "10",
+      "APSTaskNo": "PU_APS_2826299003_09301536",
+      "LineNo": "431LTOO07"
+    }
+  ],
+  "Facility": "431",
+  "SaleOrderNo": "",
+  "taskId": "826e1555-663e-4874-87f1-823b7c7a2580",
+  "PurchaseOrderNo": ""
+}
